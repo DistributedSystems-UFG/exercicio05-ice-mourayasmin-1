@@ -6,5 +6,14 @@ sudo dnf install python3-ice ice-compilers
 
 Note: This code is exactly as in Example 3.21 of Maarten van Steen's book.
 
-On a terminal, run: python3 server.py - It must return: "Hello World!"
-On another terminal, run: python3 client.py - It must return: "11 5.0" 
+On a terminal, run: 
+```
+python3 server.py
+```
+- It must return: "Hello World!"
+
+On another terminal, run: 
+```
+python3 client.py 
+```
+- It must return: "11 5.0" 
